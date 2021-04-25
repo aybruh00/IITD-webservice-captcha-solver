@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Moodle_Ext",
+    "version": "1",
+    "permissions": ["tabs"],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://moodle.iitd.ac.in/login/index.php"
+            ],
+            "js": ["moodle.js"]
+        }
+    ]
+}
