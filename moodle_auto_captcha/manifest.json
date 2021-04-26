@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Moodle_Ext",
+    "name": "Moodle_Auto_Captcha",
     "version": "1",
     "permissions": ["tabs"],
     "content_scripts": [
